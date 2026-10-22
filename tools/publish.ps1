@@ -22,12 +22,20 @@ $size = (Get-Item $File).Length
 $url = "https://github.com/$Repo/releases/download/$Version/$name"
 
 # Create (or re-use) the release and attach the image.
-$existing = gh release view $Version --repo $Repo --json tagName 2>$null
-if ($LASTEXITCODE -eq 0) {
+# NOTE: probing for an existing release must not abort the script, so keep
+# stderr from gh non-terminating for this call only.
+$ErrorActionPreference = "Continue"
+$null = gh release view $Version --repo $Repo --json tagName 2>&1
+$releaseExists = ($LASTEXITCODE -eq 0)
+$ErrorActionPreference = "Stop"
+
+if ($releaseExists) {
     gh release upload $Version $File --repo $Repo --clobber
+    if ($LASTEXITCODE -ne 0) { throw "gh release upload failed" }
 }
 else {
     gh release create $Version $File --repo $Repo --title "Cardputer firmware $Version" --notes $Notes
+    if ($LASTEXITCODE -ne 0) { throw "gh release create failed" }
 }
 
 $manifest = [ordered]@{

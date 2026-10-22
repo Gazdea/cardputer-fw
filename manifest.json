@@ -1,19 +1,14 @@
-{
-  "product": "cardputer-adv",
-  "channel": "stable",
-  "generated": "2026-10-22",
-  "latest": {
-    "version": "2.9.1-cfw1",
-    "tag": "2.9.1-cfw1",
-    "file": "Launcher-m5stack-cardputer-2.9.1-cfw1.bin",
-    "url": "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw1/Launcher-m5stack-cardputer-2.9.1-cfw1.bin",
-    "sha256": "TBD",
-    "size": 0,
-    "notes": [
-      "app0 увеличен до 2 MB (coredump сдвинут на 0x210000)",
-      "WebUI on boot: устройство само поднимает HTTP после подключения к известной сети",
-      "serial-консоль: команда webui [ap|sta]",
-      "версия 2.9.1-cfw1 видна в /systeminfo"
-    ]
-  }
+﻿{
+    "product":  "cardputer-adv",
+    "channel":  "stable",
+    "generated":  "2026-10-22",
+    "latest":  {
+                   "version":  "2.9.1-cfw1",
+                   "tag":  "2.9.1-cfw1",
+                   "file":  "Launcher-m5stack-cardputer-2.9.1-cfw1.bin",
+                   "url":  "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw1/Launcher-m5stack-cardputer-2.9.1-cfw1.bin",
+                   "sha256":  "3f0f290b2faf575353a904f6f7cba78f1a58feebc904581339ed33aef097037d",
+                   "size":  1423376,
+                   "notes":  "app0 -\u003e 2MB; WebUI on boot (wui_auto); serial console: webui [ap|sta]; VERSION=2.9.1-cfw1"
+               }
 }
