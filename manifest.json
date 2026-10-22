@@ -3,12 +3,12 @@
     "channel":  "stable",
     "generated":  "2026-10-22",
     "latest":  {
-                   "version":  "2.9.1-cfw7",
-                   "tag":  "2.9.1-cfw7",
-                   "file":  "Launcher-m5stack-cardputer-2.9.1-cfw7.bin",
-                   "url":  "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw7/Launcher-m5stack-cardputer-2.9.1-cfw7.bin",
-                   "sha256":  "ad16f88cf55ca8ead0e110846fd152d129668170db14aa41418bf05d77156f1e",
-                   "size":  1427904,
-                   "notes":  "adds GET /status (version, heap, wifi, ip, sd, installed apps) for remote checks"
+                   "version":  "2.9.1-cfw8",
+                   "tag":  "2.9.1-cfw8",
+                   "file":  "Launcher-m5stack-cardputer-2.9.1-cfw8.bin",
+                   "url":  "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw8/Launcher-m5stack-cardputer-2.9.1-cfw8.bin",
+                   "sha256":  "804f6d05b4d52a2edcc344e415a9738a394996c57898a12d37a5f9f43bff86e1",
+                   "size":  1428160,
+                   "notes":  "self-update: chunked range download with retries (single long TLS stream died while SD stalled)"
                }
 }
