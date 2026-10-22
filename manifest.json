@@ -3,12 +3,12 @@
     "channel":  "stable",
     "generated":  "2026-10-22",
     "latest":  {
-                   "version":  "2.9.1-cfw4",
-                   "tag":  "2.9.1-cfw4",
-                   "file":  "Launcher-m5stack-cardputer-2.9.1-cfw4.bin",
-                   "url":  "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw4/Launcher-m5stack-cardputer-2.9.1-cfw4.bin",
-                   "sha256":  "dbf2d604794e0df15420940fbe150f9c3f047c90a4cb93086d3e9937b78220ab",
-                   "size":  1428960,
-                   "notes":  "self-update: bring WiFi up before the first HTTP call (fixes lwip assert when nothing connected the network)"
+                   "version":  "2.9.1-cfw5",
+                   "tag":  "2.9.1-cfw5",
+                   "file":  "Launcher-m5stack-cardputer-2.9.1-cfw5.bin",
+                   "url":  "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw5/Launcher-m5stack-cardputer-2.9.1-cfw5.bin",
+                   "sha256":  "12b6b397d869d1038afa27605170fe45b6016103a0152810a94143f1210eac8a",
+                   "size":  1427264,
+                   "notes":  "self-update: BOM/whitespace tolerance + diagnostics in the JSON error"
                }
 }
