@@ -3,12 +3,12 @@
     "channel":  "stable",
     "generated":  "2026-10-22",
     "latest":  {
-                   "version":  "2.9.1-cfw5",
-                   "tag":  "2.9.1-cfw5",
-                   "file":  "Launcher-m5stack-cardputer-2.9.1-cfw5.bin",
-                   "url":  "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw5/Launcher-m5stack-cardputer-2.9.1-cfw5.bin",
-                   "sha256":  "12b6b397d869d1038afa27605170fe45b6016103a0152810a94143f1210eac8a",
+                   "version":  "2.9.1-cfw6",
+                   "tag":  "2.9.1-cfw6",
+                   "file":  "Launcher-m5stack-cardputer-2.9.1-cfw6.bin",
+                   "url":  "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw6/Launcher-m5stack-cardputer-2.9.1-cfw6.bin",
+                   "sha256":  "1e25ccfd71597ea7f25c65d3d34e61cdd524f9dd6ce9e5ca90cfa224a39ee7b3",
                    "size":  1427264,
-                   "notes":  "self-update: BOM/whitespace tolerance + diagnostics in the JSON error"
+                   "notes":  "stacks: SerialConsole 10k, httpd 12k (self-update TLS+JSON overflowed 4k)"
                }
 }
