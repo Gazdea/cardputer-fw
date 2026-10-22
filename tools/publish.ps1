@@ -54,7 +54,9 @@ $manifest = [ordered]@{
 }
 
 $manifestPath = Join-Path $root "manifest.json"
-$manifest | ConvertTo-Json -Depth 6 | Set-Content -Path $manifestPath -Encoding utf8
+# No BOM: the device parses this with ArduinoJson, which rejects a UTF-8 BOM.
+$json = $manifest | ConvertTo-Json -Depth 6
+[System.IO.File]::WriteAllText($manifestPath, $json, (New-Object System.Text.UTF8Encoding($false)))
 
 "manifest updated: $manifestPath"
 "sha256: $sha"
