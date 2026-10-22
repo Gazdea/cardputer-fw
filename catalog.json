@@ -1,21 +1,31 @@
 {
+  "product": "cardputer-adv",
+  "note": "Merged-образы (bootloader+таблица+app). Ставятся через WebUI /UPDATE из SD или /OTA загрузкой, либо через self-update (manifest.json).",
   "firmwares": [
     {
       "id": "launcher-custom",
-      "name": "Launcher custom",
-      "version": "2.9.1-cfw1",
+      "name": "Launcher custom (2 MB app0, /status, self-update)",
       "kind": "launcher",
       "default": true,
-      "url": "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw1/Launcher-m5stack-cardputer-2.9.1-cfw1.bin",
-      "notes": "Форк bmorcelli/Launcher 2.9.1: app0 2 MB, WebUI on boot, webui в serial-консоли"
+      "version": "2.9.1-cfw13",
+      "url": "https://github.com/Gazdea/cardputer-fw/releases/latest",
+      "notes": "Основная прошивка. Обновляется сама: update install / POST /selfupdate?install=1"
     },
     {
       "id": "porkchop",
       "name": "PORKCHOP",
-      "version": "0.1.8d-69",
       "kind": "app",
+      "version": "0.1.8d-69",
       "url": null,
-      "notes": "Лежит на SD: /downloads/Security/PORKCHOP.0.1.8d-69-.bin (сторонний, не пересобираем)"
+      "notes": "Вардрайвинг-RPG. Лежит на SD: /downloads/Security/PORKCHOP.0.1.8d-69-.bin — ставится через /UPDATE"
+    },
+    {
+      "id": "bit-pirate",
+      "name": "Bit Pirate (I2C/GPIO/W5500/SI4713)",
+      "kind": "app",
+      "version": "1.7",
+      "url": null,
+      "notes": "Снят с устройства по решению владельца, образ остался на SD: /downloads/Utils/Bit Pirate - Cardputer _ ADV.1.7.bin"
     }
   ]
 }
