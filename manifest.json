@@ -3,12 +3,12 @@
     "channel":  "stable",
     "generated":  "2026-10-22",
     "latest":  {
-                   "version":  "2.9.1-cfw10",
-                   "tag":  "2.9.1-cfw10",
-                   "file":  "Launcher-m5stack-cardputer-2.9.1-cfw10.bin",
-                   "url":  "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw10/Launcher-m5stack-cardputer-2.9.1-cfw10.bin",
-                   "sha256":  "6efa4003988f9f641cc11965a94f19f8da88ba64e4cfd6ad9b9d6716cccd2efb",
+                   "version":  "2.9.1-cfw11",
+                   "tag":  "2.9.1-cfw11",
+                   "file":  "Launcher-m5stack-cardputer-2.9.1-cfw11.bin",
+                   "url":  "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw11/Launcher-m5stack-cardputer-2.9.1-cfw11.bin",
+                   "sha256":  "3c7fe201e6b037b65e82c2d67ffb77711379d7e3430bff9d0e48cce0410298c9",
                    "size":  1428176,
-                   "notes":  "self-update: resumable download (keeps bytes even when the CDN closes the connection)"
+                   "notes":  "delivery target for the resumable self-update test"
                }
 }
