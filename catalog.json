@@ -1,0 +1,21 @@
+{
+  "firmwares": [
+    {
+      "id": "launcher-custom",
+      "name": "Launcher custom",
+      "version": "2.9.1-cfw1",
+      "kind": "launcher",
+      "default": true,
+      "url": "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw1/Launcher-m5stack-cardputer-2.9.1-cfw1.bin",
+      "notes": "Форк bmorcelli/Launcher 2.9.1: app0 2 MB, WebUI on boot, webui в serial-консоли"
+    },
+    {
+      "id": "porkchop",
+      "name": "PORKCHOP",
+      "version": "0.1.8d-69",
+      "kind": "app",
+      "url": null,
+      "notes": "Лежит на SD: /downloads/Security/PORKCHOP.0.1.8d-69-.bin (сторонний, не пересобираем)"
+    }
+  ]
+}
