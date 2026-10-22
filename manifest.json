@@ -3,12 +3,12 @@
     "channel":  "stable",
     "generated":  "2026-10-22",
     "latest":  {
-                   "version":  "2.9.1-cfw12",
-                   "tag":  "2.9.1-cfw12",
-                   "file":  "Launcher-m5stack-cardputer-2.9.1-cfw12.bin",
-                   "url":  "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw12/Launcher-m5stack-cardputer-2.9.1-cfw12.bin",
-                   "sha256":  "780584cd5bfc78f0e8499ea272555600b2b70d1ccbbe357c12f4a832bd646aa3",
+                   "version":  "2.9.1-cfw13",
+                   "tag":  "2.9.1-cfw13",
+                   "file":  "Launcher-m5stack-cardputer-2.9.1-cfw13.bin",
+                   "url":  "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw13/Launcher-m5stack-cardputer-2.9.1-cfw13.bin",
+                   "sha256":  "364572367dc409758996afffa9efe7ed494cdcb79833612988ce73f1f304fd41",
                    "size":  1428144,
-                   "notes":  "self-update: sequential writes + partial-write accounting (no seek on write-only file)"
+                   "notes":  "OTA delivery target"
                }
 }
