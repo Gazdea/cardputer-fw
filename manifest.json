@@ -3,12 +3,12 @@
     "channel":  "stable",
     "generated":  "2026-10-22",
     "latest":  {
-                   "version":  "2.9.1-cfw3",
-                   "tag":  "2.9.1-cfw3",
-                   "file":  "Launcher-m5stack-cardputer-2.9.1-cfw3.bin",
-                   "url":  "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw3/Launcher-m5stack-cardputer-2.9.1-cfw3.bin",
-                   "sha256":  "f044e19383b81a0caa80cfff3ea6ba0cc0ae544c2d190a5364c08c0525af547c",
-                   "size":  1428864,
-                   "notes":  "no WiFi/WebUI autostart at boot: start it manually (menu WUI or console \u0027webui\u0027); self-update agent unchanged"
+                   "version":  "2.9.1-cfw4",
+                   "tag":  "2.9.1-cfw4",
+                   "file":  "Launcher-m5stack-cardputer-2.9.1-cfw4.bin",
+                   "url":  "https://github.com/Gazdea/cardputer-fw/releases/download/2.9.1-cfw4/Launcher-m5stack-cardputer-2.9.1-cfw4.bin",
+                   "sha256":  "dbf2d604794e0df15420940fbe150f9c3f047c90a4cb93086d3e9937b78220ab",
+                   "size":  1428960,
+                   "notes":  "self-update: bring WiFi up before the first HTTP call (fixes lwip assert when nothing connected the network)"
                }
 }
