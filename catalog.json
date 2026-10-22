@@ -1,15 +1,14 @@
 {
   "product": "cardputer-adv",
-  "note": "Merged-образы (bootloader+таблица+app). Ставятся через WebUI /UPDATE из SD или /OTA загрузкой, либо через self-update (manifest.json).",
+  "note": "?????????? ?????? ?? USB (tools/usb-flash.ps1) ??? ?????????? ????? ? SD ????? WebUI /UPDATE.",
   "firmwares": [
     {
       "id": "launcher-custom",
-      "name": "Launcher custom (2 MB app0, /status, self-update)",
+      "name": "Launcher custom (2 MB app0, manual WebUI)",
       "kind": "launcher",
       "default": true,
-      "version": "2.9.1-cfw13",
-      "url": "https://github.com/Gazdea/cardputer-fw/releases/latest",
-      "notes": "Основная прошивка. Обновляется сама: update install / POST /selfupdate?install=1"
+      "version": "2.9.1-cfw14",
+      "notes": "???????? ????????. ??????????? ?? USB: tools/usb-flash.ps1"
     },
     {
       "id": "porkchop",
